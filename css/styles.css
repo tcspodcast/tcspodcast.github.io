@@ -1,0 +1,397 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+main .home{
+ padding-bottom: 55rem;
+}
+
+main .home .textbox{
+	float: right;
+	border:1px solid solid black;
+}
+
+main .home ul li{
+	float: left;
+	width: 100px;
+	text-transform: capitalize;
+	list-style-type: none;
+	font-family: kalim parl, sans-serif;
+}
+
+main .home ul li a{
+	text-decoration: none;
+	color: white;
+	transition: color 650ms;
+}
+
+main .home ul li a:hover{
+	color:#81b71a;
+}
+
+main .home b{
+	color: #81b71a ;
+	border-bottom: 2px solid #81b71a ;
+	font-weight: normal;
+}
+
+main .home .textbox img{
+	height: 2rem;
+	left: 20px;
+	top: 30px;
+}
+
+body{
+	background:linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.68),rgba(0,0,0,0.68),rgba(0,0,0,0.68)), url(../images/bg2.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+main .home .cover{
+	border:1px solid black;
+	text-align: center;
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	border-radius: 9px;
+	box-shadow: 0 0 16px 7px;
+	opacity: 0.6;
+}
+
+main .home .subcover{
+	border-bottom: 1px solid none;
+	background:black;
+	width: 300px;
+	height: 450px;
+	opacity: 0.6;
+	border-radius: 8px;
+}
+
+main .home .coverimage{
+	text-align: center;
+}
+
+main .home img{
+	border-radius: 20px;
+	position: absolute;
+	left: 20%;
+	top:10%;
+	margin: -10px -9px;
+	opacity: 0.9;
+}
+
+main .home .text{
+	position: absolute;
+	left: 25%;
+	top:55%;
+	margin: -1px 10px;
+}
+
+main .home h1{
+	color: white;
+	font-family: kulim park, sans-serif;
+	line-height: 7px;
+	font-weight: normal;
+}
+
+main .home h2{
+	color: white;
+	font-family: kulim park, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	opacity: 0.9;
+	margin-top: -6px;
+}
+
+main .home .line{
+	border-bottom: 2px solid white;
+	position: absolute;
+	top: 70%;
+	left: 15%;
+	width: 220px;
+	box-shadow: 1px 0px 4px;
+	color: #81b71a;
+}
+
+main .home .fa-circle{
+	color:#81b71a;
+	position: absolute;
+	left: 35%;
+	margin-top: -7px;
+}
+
+main .home h3{
+	position: absolute;
+	left: 15%;
+	top:67%;
+	color: white;
+	font-family: kulim park, sans-serif;
+	font-weight: normal;
+}
+
+main .home h4{
+	position: absolute;
+	left: 81%;
+	top: 66%;
+	font-size: 17px;
+	color: white;
+	font-family: kulim park, sans-serif;
+	font-weight: normal;
+}
+
+main .home .player{
+	border-bottom: 1px solid white;
+	font-size: 60px;
+}
+
+main .home .fa-play-circle{
+	color: #81b71a;
+	position: absolute;
+	left: 45%;
+	top: 75%;
+}
+
+main .home .fa-play-circle:hover{
+	font-size:65px;
+	cursor: pointer;
+}
+
+main .home .forward{
+	font-size: 35px;
+}
+
+main .home .fa-forward{
+	color: white;
+	position: absolute;
+	left: 65%;
+	top:78%
+}
+
+main .home .forward:hover{
+	font-size: 40px;
+}
+
+main .home .backward{
+	font-size: 35px;
+}
+
+main .home .fa-backward{
+	color: white;
+	position: absolute;
+	left: 31%;
+	top:78%;
+}
+
+main .home .backward:hover{
+	font-size: 40px;
+}
+
+main .home .retweet{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+main .home .fa-retweet{
+	color:#81b71a;
+	position: absolute;
+	left: 22%;
+	top: 80%;
+}
+
+main .home .repeat{
+	font-size: 18px;
+}
+
+main .home .fa-repeat{
+	color: #81b71a;
+	position: absolute;
+	left:78%;
+	top: 80%;
+}
+
+main .home .context{
+	position: absolute;
+	left: 40%;
+	top: 20%;
+}
+
+main .home h5{
+	font-size: 50px;
+	color: white;
+	font-family: titillium web, candara;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+main .home font{
+	color: white;
+	opacity: 0.2;
+}
+
+main .home h6{
+	font-size: 14px;
+	color: white;
+	font-family: titillium web, candara;
+	font-weight: normal;
+	width: 550px;
+	margin-top: -16%;
+	word-spacing: 0.2;
+	opacity: 0.4;
+	text-align:justify;
+}
+
+main .home .box{
+	position: absolute;
+	left: 40%;
+	top: 63%;
+}
+
+main .home input[type="submit"]{
+	padding: 10px;
+	border:none;
+	opacity: 0.8;
+	color: white;
+	border-radius: 4px;
+	background-color: black;
+}
+
+main .home input[type="submit"]:hover{
+	background-color: #81b71a;
+	cursor: pointer;
+}
+
+main .home .icon{
+	width: 5px;
+}
+
+/****************************************************/
+
+main .streams .textbox{
+	border:1px solid solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.5rem;
+	padding-bottom: 2rem;
+}
+
+main .streams .textbox img{
+	height: 1.5rem;
+	padding-top: 0.5rem;
+}
+
+main .streams ul li{
+	float: left;
+	width: 100px;
+	text-transform: capitalize;
+	list-style-type: none;
+	font-family: kalim parl, sans-serif;
+
+}
+
+main .streams ul li a{
+	text-decoration: none;
+	color: white;
+	transition: color 650ms;
+}
+
+main .streams ul li a:hover{
+	color:#81b71a;
+}
+
+main .streams b{
+	color: #81b71a ;
+	border-bottom: 2px solid #81b71a ;
+	font-weight: normal;
+}
+
+main .streams .intro{
+	text-align: center;
+	font-family: candara;
+	padding: 0.5rem;
+	padding-bottom: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	font-size: 1.5rem;
+	color: white;
+
+}
+
+main .streams .intro h2{
+	padding-bottom: 2rem;
+	border-bottom: 2px solid white;
+}
+
+main .streams .platforms{
+	padding: 2rem;
+	padding-bottom: 3rem;
+	font-family: candara;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+main .streams .platforms-row{
+	padding: 2rem;
+	padding-bottom: 3rem;
+	font-family: candara;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+main .streams .platforms img{
+	width: 200px;
+	align-items: center;
+	box-shadow: 4px 4px #000000;
+}
+
+main .streams .platforms-row img{
+	width: 200px;
+	align-items: center;
+	box-shadow: 4px 4px #000000;
+}
+
+main .streams .container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+main .streams .container .logo h3{
+	font-size: 2.5rem;
+	color: #B38A4C;
+	text-shadow:  2px 2px #000000;
+}
+
+main .streams .container .logo a i{
+	font-size: 5rem;
+	color: white;
+	transition: color 650ms;
+	padding-bottom: 2.5rem;
+}
+
+main .streams .container .logo a i:hover{
+	color:#B38A4C;
+}
+
+.copyright p{
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0;
+	position: relative;
+	color: white;
+	font-family: candara;
+}
+
+.copyright a{
+	color: white;
+	font-family: candara;
+	text-decoration:none;
+}
+
+.copyright{
+	text-align: center;
+}
